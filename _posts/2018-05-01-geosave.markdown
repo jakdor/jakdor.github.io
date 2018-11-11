@@ -1,0 +1,28 @@
+---
+layout: post
+title:  "Geosave"
+date_start:   2018-05-01 00:00:00 +0200
+date_end:   
+categories: portfolio
+---
+![geosave-logo](/assets/portfolio/geosave1.png){:class="responsive-margn"}
+
+##### Ambitious cross-platform project that will allow for easy real-time sharing and collaborating on GPS related data & location pictures. 
+
+###### Online part of the app is designed similar to GitHub – users will be able to create public or private repositories with locations and work together with others. Target user group are primarily biologists, geologists, mushroom pickers, etc. My personal goals with this project are to practice Firebase services integration and in the future create IOS and web versions of this app.
+
+###### status: Android version in-dev, IOS and web versions planed
+
+---
+##### Screenshots
+
+![](/assets/portfolio/geosave2.png)  |  ![](/assets/portfolio/geosave3.png) | ![](/assets/portfolio/geosave4.png)
+
+---
+##### Links
+
+<a href="https://github.com/{{ site.github }}/geosave" target="_blank"><i class="fa fa-github fa-5x" style="color: black"></i></a> | [github.com/{{ site.github }}/geosave][gh]{:target="_blank"}
+{:.mbtablestyle}
+
+[//]: links:
+[gh]: https://github.com/{{ site.github }}/geosave

@@ -12,12 +12,12 @@ layout: default
   </div>
   <div class="posts card">
       <div class="card-content white-text">
-      <span class="card-title">Posts</span>
+      <span class="card-title">My best projects</span>
 
       <ul class="post-list">
         {% for post in site.posts %}
           <li>
-            <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+            <span class="post-meta">{{ post.date_start | date: "%b %Y" }} - {{ post.date_end | date: "%b %Y" }}</span>
             <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>            
           </li>
         {% endfor %}
