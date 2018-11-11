@@ -6,15 +6,12 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: The Dude
-email: your-email@domain.com
-description:  Write an awesome description for your new site here. You can edit this
-              line in _config.yml. It will appear in your document head meta (for
-              Google search results) and in your feed.xml site description.
-baseurl: "/jekyll-wing-template" # the subpath of your site, e.g. /blog
+title: Jakub Dorda
+email: jak_dor@wp.pl
+description: I'm 3rd year student at Wroclaw University of Science and Technology. I'm looking forward to turning my hobby of making mobile android apps into a job. I'm president at Akademickie Stowarzyszenie Informatyczne. I also have my own business in pre-incubation dedicated to selling my own electronic products on eBay.
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+github_username:  jakdor
 
 # Build settings
 markdown: kramdown

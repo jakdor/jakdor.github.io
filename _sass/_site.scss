@@ -22,25 +22,23 @@
     
     
     .header-badge{
-        border-radius: 50%;
-        border: 12px #fff solid;
         height: 200px;
         width: 200px;
+        border-radius: 50%;
         background: url('../assets/home.svg') center center no-repeat #fff;
         background-size: 50px 50px;
         display: inline-block;
         margin-bottom: -140px;        
         overflow: hidden;
         transition: $anim-speed; 
-        @extend .z-depth-1;
+        @extend .z-depth-2;
         
         
         img{
             object-fit: none; /* Do not scale the image */
             object-position: center; /* Center the image within the element */
-            height: 176px;
-            width: 176px;
-            border-radius: 50%;
+            height: 200px;
+            width: 200px;
             opacity: 1;
             transition: $anim-speed;        
         }        

@@ -6,7 +6,8 @@ layout: default
  <div class="top card">
     <a class="email" href="mailto:{{site.email}}">{{site.email}}</a>
     <p class="description">{{ site.description }}</p>
-    <a href="about" class="btn">Read More</a>
+    <a href="about" class="btn">Skills</a>
+    <a href="cv" class="btn">Curriculum vitae</a>
   </div>
   <div class="posts card">
       <div class="card-content white-text">
@@ -21,7 +22,6 @@ layout: default
         {% endfor %}
       </ul>
 
-      <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
       </div>
    </div>
 
