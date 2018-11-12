@@ -13,7 +13,7 @@ tech: [Embedded, C]
 
 ###### Back in the late 2016 I was working on a project that was using old nixie tubes to give them life once again with modern electronics and microcontrollers. After my design cough a lot of attention online, it became apparent to me that turning my electronic hobby into business might be easier then I have expected.
 
-###### Since January 2018 I'm officially selling my designs to others interested in retro electronics. With manufacturing in China and world wide shipping on eBay a was able to sell over 400+ units so far, with 100% positive feedback.  
+###### Since January 2018 I'm officially selling my designs to others interested in retro electronics. With manufacturing in China and world wide shipping on eBay I was able to sell over 400+ units so far, with 100% positive feedback.  
 
 ###### status: **3 different designs available for purchase on eBay.com**
 

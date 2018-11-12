@@ -1,7 +1,29 @@
 ---
 layout: page
-title: About
+title: Skills
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+#### **Native Android - Kotlin / Java**
+
+##### Frameworks/libs: 
+###### AndroidX(Support Libs), Android Jetpack, Kotlin Android Extensions, RxJava2, Dagger2, Retrofit, Glide/Picassa, Google Play Services, Firebase, Fabric, and many other libraries
+
+##### Testing:
+###### JUnit4/5, Mockito, Espresso, Robolectric
+
+##### Project Architecture:
+###### MVVM, MVP, MVC
+
+---   
+  
+#### **Other IT skills**
+###### - C/C++, GNU/Linux, GIT, LaTeX 
+###### - microcontrollers - AVR, STM32
+###### - THT & SMD soldering, 2 layer pcb design
+
+---
+
+#### **Foreign Languages**
+###### English - fluent in speech and writing 
+###### German - communicative
