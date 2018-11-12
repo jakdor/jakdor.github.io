@@ -4,6 +4,7 @@ title:  "LabDay"
 date_start: 2017-12-01 00:00:00 +0200 
 date_end: 2018-05-01 00:00:00 +0200
 categories: portfolio
+tech: [Android, Kotlin, Java]
 ---
 ![labday-logo](/assets/portfolio/labday_baner.png){:class="responsive-margn"}
 

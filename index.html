@@ -18,7 +18,15 @@ layout: default
         {% for post in site.posts %}
           <li>
             <span class="post-meta">{{ post.date_start | date: "%b %Y" }} - {{ post.date_end | date: "%b %Y" }}</span>
-            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>            
+            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}
+              <div style="display: table-row">
+                {% for tech in post.tech %}
+                  <div class="card-tag">
+                  {{ tech }}
+                  </div>
+                {% endfor %}
+              </div>
+            </a> 
           </li>
         {% endfor %}
       </ul>

@@ -4,6 +4,7 @@ title:  "SimplePrintServer"
 date_start: 2017-10-01 00:00:00 +0200 
 date_end: 2018-11-01 00:00:00 +0200
 categories: portfolio
+tech: [Desktop, Java]
 ---
 ##### Cross-platform desktop project for launching print jobs remotely without need to install drivers on client-side
 

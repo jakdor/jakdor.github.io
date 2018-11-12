@@ -182,3 +182,18 @@
     }
   }
 }
+
+.card-tag{
+  float: left;
+  margin-left: 0.25cm;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  background-color: $card-bg-color;
+  transition: box-shadow .25s;
+  border-radius: 2px;
+  word-break: break-all;
+  word-wrap: break-word;
+  width: max-content;
+  font-size: 1.5rem;
+  @extend .z-depth-1;
+}
