@@ -24,7 +24,7 @@ tech: [Desktop, Java]
 ---
 ##### Links
 
-<a href="https://github.com/{{ site.github }}/SimplePrintServer" target="_blank"><i class="fa fa-github fa-5x" style="color: black"></i></a> | [github.com/{{ site.github }}/SimplePrintServer][gh]{:target="_blank"}
+<a href="https://github.com/{{ site.github }}/SimplePrintServer" target="_blank"><i class="fa fa-github fa-3x" style="color: black"></i></a> | [github.com/{{ site.github }}/SimplePrintServer][gh]{:target="_blank"}
 {:.mbtablestyle}
 
 [//]: links:

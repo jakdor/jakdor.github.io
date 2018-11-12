@@ -32,7 +32,7 @@ tech: [Android, Java]
 ---
 ##### Links
 
-<a href="https://github.com/{{ site.github }}/SSCAndroidApp" target="_blank"><i class="fa fa-github fa-5x" style="color: black"></i></a> | [github.com/{{ site.github }}/SSCAndroidApp][gh]{:target="_blank"}
+<a href="https://github.com/{{ site.github }}/SSCAndroidApp" target="_blank"><i class="fa fa-github fa-3x" style="color: black"></i></a> | [github.com/{{ site.github }}/SSCAndroidApp][gh]{:target="_blank"}
 {:.mbtablestyle}
 
 <a href="https://play.google.com/store/apps/details?id=com.jakdor.sscapp" target="_blank"><img src="/assets/playstore.png"></a> | [https://play.google.com/store/apps/details?id=com.jakdor.sscapp][play]{:target="_blank"}
