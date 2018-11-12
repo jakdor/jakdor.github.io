@@ -1,2 +1,2 @@
-## My portfolio github page - jakdor.github.io
+## My portfolio github page - jakdor.it
 Based on jekyll template "Wing" by Jannik Richter: http://jekyllthemes.org/themes/wings/
