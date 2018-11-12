@@ -5,22 +5,26 @@ date_start: 2017-10-01 00:00:00 +0200
 date_end: 2018-11-01 00:00:00 +0200
 categories: portfolio
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+##### Cross-platform desktop project for launching print jobs remotely without need to install drivers on client-side
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+###### This is basically Google Cloud Print clone before it went into public beta. 
 
-Jekyll also offers powerful support for code snippets:
+###### Main purpose of this project was to create alternative system for LAN/Internet printing, by removing need to install printer drivers on client side. It can be a viable solution when drivers for printers are not available for client OS but working on host/server PC. 
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+###### Project also aspired to provide stable and reliable data transfer architecture as a alternative to Samba based Windows architecture suffering from connection issues.
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+###### status: **alpha1.0.2 - MVP Proof of Concept build, project abandoned because Google did it better**
 
-[jekyll-docs]: http://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+---
+##### Screenshots
+
+![](/assets/portfolio/sps1.png){:class="responsive"}
+
+---
+##### Links
+
+<a href="https://github.com/{{ site.github }}/SimplePrintServer" target="_blank"><i class="fa fa-github fa-5x" style="color: black"></i></a> | [github.com/{{ site.github }}/SimplePrintServer][gh]{:target="_blank"}
+{:.mbtablestyle}
+
+[//]: links:
+[gh]: https://github.com/{{ site.github }}/SimplePrintServer

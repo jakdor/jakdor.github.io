@@ -7,9 +7,9 @@ categories: portfolio
 ---
 ![labday-logo](/assets/portfolio/labday_baner.png){:class="responsive-margn"}
 
-##### Guide Android App for Lab Day PWR Event. Application provides event map, timetable and other informations.
+##### Guide Android App for Lab Day PWR Event. Application provides event map, timetable and other information.
 
-#### Technology goals
+###### Technology goals
 - Use as many professionally used frameworks, libraries and project patterns as saintly possible.
 - MVVM with repository project architecture. Dependency Injection project pattern with Dagger2.
 - Proper test coverage with all types of tests(unit, integration, GUI unit tests, automated integration GUI tests) + documentation.
@@ -18,7 +18,7 @@ categories: portfolio
 - Google APIs used: Maps, Directions
 - Some classes implemented in Kotlin, to practice new language.
 
-###### status: release 1.0.2
+###### status: **release 1.0.2**
 
 ---
 ##### Screenshots
@@ -32,10 +32,9 @@ categories: portfolio
 <a href="https://github.com/{{ site.github }}/LabDayApp" target="_blank"><i class="fa fa-github fa-5x" style="color: black"></i></a> | [github.com/{{ site.github }}/LabDayApp][gh]{:target="_blank"}
 {:.mbtablestyle}
 
-<a href="https://play.google.com/store/apps/details?id=com.jakdor.labday" target="_blank"><img src="/assets/portfolio/playstore.png"></a> | [https://play.google.com/store/apps/details?id=com.jakdor.labday][gh]{:target="_blank"}
+<a href="https://play.google.com/store/apps/details?id=com.jakdor.labday" target="_blank"><img src="/assets/playstore.png"></a> | [https://play.google.com/store/apps/details?id=com.jakdor.labday][play]{:target="_blank"}
 {:.mbtablestyle}
 
 [//]: links:
 [gh]: https://github.com/{{ site.github }}/LabDayApp
 [play]: https://play.google.com/store/apps/details?id=com.jakdor.labday
-
