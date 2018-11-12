@@ -14,13 +14,7 @@ tech: [Android, Java]
 ###### Small app consuming rest api written in Django framework
 
 ###### Features:
-- Conference timetable in handy form and always up-to-date 
-- Receive notifications from conference hosts
-- Host information & contact
-- Map
-- Our sponsors & partners
-- Our media channels
-- Contact
+###### - Conference timetable in handy form and always up-to-date <br> - Receive notifications from conference hosts <br> - Host information & contact <br> - Map <br> - Our sponsors & partners <br> - Our media channels <br> - Contact
 
 ###### status: **release 1.1.0**
 
