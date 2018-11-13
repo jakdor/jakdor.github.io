@@ -9,7 +9,7 @@ tech: [Embedded, C]
 ![labday-logo](/assets/portfolio/ebay_logo.jpg){:class="responsive"}
 
 <br>
-##### We can all agree that retro is back, and stronger then ever before...
+##### We can all agree that retro is back, and stronger than ever before...
 
 ###### Back in the late 2016 I was working on a project that was using old nixie tubes to give them life once again with modern electronics and microcontrollers. After my design cough a lot of attention online, it became apparent to me that turning my electronic hobby into business might be easier then I have expected.
 
