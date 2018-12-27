@@ -10,24 +10,53 @@ layout: default
     <a href="about" class="btn">Skills</a>
     <a href="assets/cv_public.pdf" target="_blank" class="btn">Curriculum vitae</a>
   </div>
+
   <div class="posts card">
       <div class="card-content white-text">
-      <span class="card-title">My best projects</span>
+      <span class="card-title">Work history</span>
 
       <ul class="post-list">
         {% for post in site.posts %}
-          <li>
-            <span class="post-meta">{{ post.date_start | date: "%b %Y" }} - {{ post.date_end | date: "%b %Y" }}</span>
-            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}
-              <div style="display: table-row">
-                {% for tech in post.tech %}
-                  <div class="card-tag">
-                  {{ tech }}
-                  </div>
-                {% endfor %}
-              </div>
-            </a> 
-          </li>
+          {% if post.categories contains "work" %}
+            <li>
+              <span class="post-meta">{{ post.date_start | date: "%b %Y" }} - {{ post.date_end | date: "%b %Y" }}</span>
+              <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}
+                <div style="display: table-row">
+                  {% for tech in post.tech %}
+                    <div class="card-tag">
+                    {{ tech }}
+                    </div>
+                  {% endfor %}
+                </div>
+              </a>
+            </li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+
+      </div>
+   </div>
+
+  <div class="posts card">
+      <div class="card-content white-text">
+      <span class="card-title">My best side projects</span>
+
+      <ul class="post-list">
+        {% for post in site.posts %}
+          {% if post.categories contains "portfolio" %}
+            <li>
+              <span class="post-meta">{{ post.date_start | date: "%b %Y" }} - {{ post.date_end | date: "%b %Y" }}</span>
+              <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}
+                <div style="display: table-row">
+                  {% for tech in post.tech %}
+                    <div class="card-tag">
+                    {{ tech }}
+                    </div>
+                  {% endfor %}
+                </div>
+              </a>
+            </li>
+          {% endif %}
         {% endfor %}
       </ul>
 

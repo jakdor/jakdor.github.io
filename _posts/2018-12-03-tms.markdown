@@ -1,0 +1,17 @@
+---
+layout: post
+title:  "Tailored Mobile Solutions"
+date_start: 2018-12-03 00:00:00 +0200
+date_end:
+categories: work
+tech: [native Android, Xamarin]
+---
+###### I'm currently working for Tailored Mobile Solutions sp. z o.o. company, where I'm responsible for developing mobile apps...
+
+##### Links
+
+<a href="http://tmssoft.pl" target="_blank"><i class="fa fa-link fa-3x" style="color: black"></i></a> | [http://tmssoft.pl][tms]{:target="_blank"}
+{:.mbtablestyle}
+
+[//]: links:
+[tms]: http://tmssoft.pl
