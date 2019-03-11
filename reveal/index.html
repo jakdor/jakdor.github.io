@@ -1,0 +1,124 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>ReactiveX 101</title>
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/black.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+
+				<section data-markdown>
+					# ReactiveX 101
+					### Jakub Dorda
+				</section>
+
+				<section data-markdown>
+					## Kilka słów o mnie
+					- Programista aplikacji mobilnych
+					- Obecny prezes ASI
+					- Koordynator 16. Sesji Linuksowej
+					- hobby: elektronika, astronomia, quadcoptery 
+				</section>
+
+				<section data-markdown>
+					# Problem(y)...
+				</section>
+
+				<section data-markdown>
+					- Obsługa eventów w aplikacji
+					- Skomplikowane wywołania asynchroniczne
+					- Wiele zadań na różnych wątkach oraz problem synchronizacji
+					- Komponowanie/przetwarzanie dyskretnych strumieni danych
+				</section>
+
+				<section data-markdown>
+					# ...Rozwiązanie
+				</section>
+
+				<section data-markdown>
+					# ReactiveX
+					> ReactiveX is a library for composing asynchronous and event-based programs by using observable sequences.
+					>
+					> -- [reactivex.io/intro.html](https://reactivex.io/intro.html)
+				</section>
+
+				<section data-markdown>
+					### Synchroniczność vs Asynchroniczność
+					![Synch vs async](img/synchronous-asynchronous-javascript.png)
+
+					-- [phpmind.com](http://www.phpmind.com/blog/2017/05/synchronous-and-asynchronous/)
+				</section>
+
+				<section data-markdown>
+					### Wzorzec obserwator
+					- Zależność 1-* między obiektami bez ścisłego powiązania
+					- Zmiana stanu/wartości w jednym obiekcie powoduje zmianę w dowolnej ilości innych obiektów
+					- Jeden obiekt ma możliwość powiadomienia dowolnej ilości innych obiektów
+				</section>
+
+				<section data-markdown>
+					![Observer pattern example](img/Observer_example1.png)
+
+					-- [sourcemaking.com/design_patterns/observer](https://sourcemaking.com/design_patterns/observer)
+				</section>
+
+				<section data-markdown>
+					![Observer pattern schema](img/httpatomoreillycomsourceoreillyimages1547801.png)
+
+					-- [sourcemaking.com/design_patterns/observer](https://sourcemaking.com/design_patterns/observer)
+				</section>
+
+				<section data-markdown>
+					|         		 | pojedyńczy obiekt 	| wiele obiektów		|
+					| -------------- |:--------------------:| ---------------------:|
+					| Synchronicznie | `T getData()` 		| `Iterable&lt;T&gt; getData()` |
+					| Asynchronicznie| `Future&lt;T&gt; getData()`| `Observable&lt;T&gt; getData()`|
+				</section>
+
+				<section data-markdown>
+					|         		 | Iterable (pobrane) 	| Observable (odebrane)		|
+					| -------------- |:--------------------:| ---------------------:|
+					| Pobieranie danych | `T next()` 		| `onNext(T)` |
+					| Wyjątki		| `throw Exception`| `onError(Exception) `|
+					| Ostatni element| `!hasNext()`| `onCompleted()`|
+				</section>
+
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
+</html>
