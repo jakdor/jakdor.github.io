@@ -11,9 +11,9 @@ email: jakub.dorda@gmail.com
 linkedin: jakub-dorda-0757b0144
 github:  jakdor
 facebook: jakub.dorda
-description: I'm 3rd year student at Wroclaw University of Science and Technology. I'm currently working for Tailored Mobile Solutions company. I'm president at Akademickie Stowarzyszenie Informatyczne. I also have my own business in pre-incubation dedicated to selling my electronic products on eBay.
+description: I'm student at Wroclaw University of Science and Technology. I'm currently working for Tailored Mobile Solutions company. I'm president at Akademickie Stowarzyszenie Informatyczne. I also have my own business in pre-incubation dedicated to selling my electronic products on eBay.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
+url: "https://jakdor.it" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
