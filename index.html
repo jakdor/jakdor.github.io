@@ -37,6 +37,32 @@ layout: default
       </div>
    </div>
 
+   <div class="posts card">
+    <div class="card-content white-text">
+    <span class="card-title">Articles</span>
+
+    <ul class="post-list">
+      {% for post in site.posts %}
+        {% if post.categories contains "article" %}
+          <li>
+            <span class="post-meta">{{ post.date_start | date: "%b %Y %d" }} </span>
+            <a class="post-link" target="_blank" href="{{ post.urlexternal }}">{{ post.title }}
+              <div style="display: table-row">
+                {% for tech in post.tech %}
+                  <div class="card-tag">
+                  {{ tech }}
+                  </div>
+                {% endfor %}
+              </div>
+            </a>
+          </li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+
+    </div>
+ </div>
+
   <div class="posts card">
       <div class="card-content white-text">
       <span class="card-title">My best side projects</span>
