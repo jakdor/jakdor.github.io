@@ -2,7 +2,7 @@
 layout: post
 title:  "My side business"
 date_start: 2018-01-27 00:00:00 +0200 
-date_end:
+date_end: 2020-01-27 00:00:00 +0200 
 categories: work
 tech: [Embedded, C]
 ---
@@ -17,6 +17,10 @@ tech: [Embedded, C]
 
 ###### status: **3 different designs available for purchase on eBay.com**
 
+##### Update 26.02.2020:
+
+###### I've released all my designs as open source. Links bellow.
+
 ---
 ##### Pictures
 
@@ -30,5 +34,9 @@ tech: [Embedded, C]
 <a href="https://www.ebay.com/usr/jakjakudord" target="_blank"><img src="/assets/ebay.png"></a> | [https://www.ebay.com/usr/jakjakudord][ebay]{:target="_blank"}
 {:.mbtablestyle}
 
+<a href="https://github.com/{{ site.github }}/NixieClock" target="_blank"><i class="fa fa-github fa-3x" style="color: black"></i></a> | [github.com/{{ site.github }}/NixieClock][gh]{:target="_blank"}
+{:.mbtablestyle}
+
 [//]: links:
 [ebay]: https://www.ebay.com/usr/jakjakudord
+[gh]: https://github.com/{{ site.github }}/NixieClock
