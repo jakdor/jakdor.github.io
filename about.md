@@ -7,10 +7,21 @@ permalink: /about/
 #### **Native Android - Kotlin / Java**
 
 ##### Frameworks/libs: 
-###### AndroidX(Support Libs), Android Jetpack, Kotlin Android Extensions, RxJava2, Dagger2, Retrofit, Glide/Picassa, Google Play Services, Firebase, Fabric, and many other libraries
+###### AndroidX(Support Libs), Android Jetpack, RxJava2, Dagger2, Retrofit, Glide/Picassa, Google Play Services, Firebase
 
 ##### Testing:
 ###### JUnit4/5, Mockito, Espresso, Robolectric
+
+#### **Native iOS - Swift**
+
+##### Frameworks/libs: 
+###### RxSwift, Alamofire, SnapKit, Realm
+
+#### **Xamarin - C#**
+##### Xamartin.Forms, Xamarin.Andorid, Xamarin.iOS
+
+##### Frameworks/libs: 
+###### Rx.NET, Refit, Autofac, MvvmCross
 
 ##### Project Architecture:
 ###### MVVM, MVP, MVC
@@ -18,9 +29,7 @@ permalink: /about/
 ---   
   
 #### **Other IT skills**
-###### - C/C++, GNU/Linux, GIT, LaTeX 
-###### - microcontrollers - AVR, STM32
-###### - THT & SMD soldering, 2 layer pcb design
+###### - GNU/Linux, GIT, Jira.com
 
 ---
 
