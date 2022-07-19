@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <title>Astrophotography - </title>
+    <meta name="description" content="">
+    <meta name="author" content="Jakub Dorda">
+    <meta name="viewport" content="width=device-width">
+
+    <link rel="stylesheet" href="static/css/normalize.css">
+    <link rel="stylesheet" href="static/themes/classic/galleria.classic.css">
+    <link rel="stylesheet" href="static/css/style.css">
+    <style>
+    body::after{
+        position:absolute; width:0; height:0; overflow:hidden; z-index:-1;
+        content:url(2017.12.26-M42.JPG);
+    }</style>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1><a href="./">Astrophotography</a></h1>
+
+      </header>
+
+      <div id="main" role="main">
+<div class="icons">
+  <a id="fullscreen"><img src="static/img/fullscreen.png"
+                          title="Fullscreen" alt="Fullscreen (f)" /></a>
+</div>
+<div id="gallery"></div>
+
+
+
+
+    <script src="static/jquery-3.3.1.min.js"></script>
+    <script src="static/galleria.min.js"></script>
+    <script src="static/themes/classic/galleria.classic.min.js"></script>
+    <script src="static/plugins/history/galleria.history.min.js"></script>
+    <script>
+    var data = [
+{
+        title: "2017.12.26-M42",
+        description: "",
+        thumb: "thumbnails/2017.12.26-M42.JPG",
+        image: "2017.12.26-M42.JPG"
+      },
+{
+        title: "2018.04.21-Moon",
+        description: "<div class='film-meta'><abbr title='film speed'>1000</abbr><abbr title='exposure'>1/800</abbr></div><abbr title='camera make and model'>Canon Canon EOS 50D</abbr><abbr title='date'>Sat Apr 21 20:53:40 2018</abbr>",
+        thumb: "thumbnails/2018.04.21-Moon.jpg",
+        image: "2018.04.21-Moon.jpg"
+      },
+{
+        title: "2018.08.17-NGC7331",
+        description: "",
+        thumb: "thumbnails/2018.08.17-NGC7331.png",
+        image: "2018.08.17-NGC7331.png"
+      },
+{
+        title: "2018.09.12-M27",
+        description: "",
+        thumb: "thumbnails/2018.09.12-M27.png",
+        image: "2018.09.12-M27.png"
+      },
+{
+        title: "2019.11.01-M81",
+        description: "",
+        thumb: "thumbnails/2019.11.01-M81.jpg",
+        image: "2019.11.01-M81.jpg"
+      },
+{
+        title: "2020.04.11-M51",
+        description: "",
+        thumb: "thumbnails/2020.04.11-M51.png",
+        image: "2020.04.11-M51.png"
+      },
+{
+        title: "2020.05.14-M104",
+        description: "",
+        thumb: "thumbnails/2020.05.14-M104.jpg",
+        image: "2020.05.14-M104.jpg"
+      },
+{
+        title: "2020.05.21-M13",
+        description: "",
+        thumb: "thumbnails/2020.05.21-M13.jpg",
+        image: "2020.05.21-M13.jpg"
+      },
+{
+        title: "2020.09.02-Saturn",
+        description: "",
+        thumb: "thumbnails/2020.09.02-Saturn.jpg",
+        image: "2020.09.02-Saturn.jpg"
+      },
+{
+        title: "2021.01.31-M42",
+        description: "",
+        thumb: "thumbnails/2021.01.31-M42.jpg",
+        image: "2021.01.31-M42.jpg"
+      },
+{
+        title: "2021.03.28-Moon",
+        description: "",
+        thumb: "thumbnails/2021.03.28-Moon.jpg",
+        image: "2021.03.28-Moon.jpg"
+      },
+{
+        title: "2021.06.19-Moon",
+        description: "",
+        thumb: "thumbnails/2021.06.19-Moon.jpg",
+        image: "2021.06.19-Moon.jpg"
+      },
+{
+        title: "2021.07.06-M17",
+        description: "",
+        thumb: "thumbnails/2021.07.06-M17.jpg",
+        image: "2021.07.06-M17.jpg"
+      },
+{
+        title: "2021.07.29-ISS",
+        description: "",
+        thumb: "thumbnails/2021.07.29-ISS.jpg",
+        image: "2021.07.29-ISS.jpg"
+      },
+    ]
+
+    Galleria.ready(function() {
+        /*
+        load thumbnails after gallery setup, and download has started
+        for the main images, but before the loading of map tiles starts
+        in the background. This ensures visible elements are prioritised
+        over non-visible elements
+
+        The choice to lazy load thumbnails in batches of 50 was not made
+        scientifically. Other numbers may yield better performance.
+        */
+        this.lazyLoadChunks( 50 );
+
+        this.attachKeyboard({
+            right: this.next,
+            left: this.prev,
+            /* Toggle fullscreen display on press of 'f' key */
+            0x46: this.toggleFullscreen,
+        });
+
+        var gallery = this;
+        $('#fullscreen').click(function() {
+          gallery.toggleFullscreen();
+        });
+
+        $('.icons').appendTo(this.$('container'));
+    });
+
+    Galleria.configure({
+        imageCrop: false,
+        transition: "fade",
+        thumbnails: "lazy"
+    });
+    Galleria.run("#gallery", {dataSource: data});
+
+    </script>
+      </div>
+<footer>
+  <p>
+      <span>&copy; Jakub Dorda</span>
+    <span>Generated by <a href="https://github.com/saimn/sigal">sigal</a></span>
+  </p>
+</footer>    </div>
+  </body>
+</html>
