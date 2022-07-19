@@ -88,5 +88,22 @@ layout: default
 
       </div>
    </div>
+  
+  <div class="posts card">
+   <div class="card-content white-text">
+   <span class="card-title">Galleries</span>
+
+   <ul class="post-list">
+     {% for post in site.posts %}
+       {% if post.categories contains "gallery" %}
+         <li>
+           <a class="post-link" target="_blank" href="{{ post.urlexternal }}">{{ post.title }}</a>
+         </li>
+       {% endif %}
+     {% endfor %}
+   </ul>
+
+    </div>
+   </div>
 
 </div>
