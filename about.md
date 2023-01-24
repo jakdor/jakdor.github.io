@@ -29,7 +29,7 @@ permalink: /about/
 ---   
   
 #### **Other IT skills**
-###### - GNU/Linux, GIT, Jira.com
+###### - GNU/Linux, GIT, Jira.com, Azure DevOps
 
 ---
 
