@@ -4,9 +4,10 @@ title: Skills
 permalink: /about/
 ---
 #### **.NET/C#**
+##### .NET 6.0/8.0, .NET Framework 4.8.1, Microsoft Azure
 
 ##### Frameworks/libs: 
-###### Razor, Blazor, WebForms, WPF
+###### Core, Razor, Blazor, WebForms, WPF
 
 #### **Xamarin / MAUI**
 ##### MAUI + Xamartin.Forms, Xamarin.Andorid, Xamarin.iOS
