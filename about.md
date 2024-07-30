@@ -3,6 +3,16 @@ layout: page
 title: Skills
 permalink: /about/
 ---
+#### **.NET/C#**
+
+##### Frameworks/libs: 
+###### Razor, Blazor, WebForms, WPF
+
+#### **Xamarin / MAUI**
+##### MAUI + Xamartin.Forms, Xamarin.Andorid, Xamarin.iOS
+
+##### Frameworks/libs: 
+###### Rx.NET, Refit, Autofac, MvvmCross
 
 #### **Native Android - Kotlin / Java**
 
@@ -17,18 +27,13 @@ permalink: /about/
 ##### Frameworks/libs: 
 ###### RxSwift, Alamofire, SnapKit, Realm
 
-#### **Xamarin - C#**
-##### Xamartin.Forms, Xamarin.Andorid, Xamarin.iOS
-
-##### Frameworks/libs: 
-###### Rx.NET, Refit, Autofac, MvvmCross
-
 ##### Project Architecture:
-###### MVVM, MVP, MVC
+###### MVVM, MVP, MVC, Event Sourcing
 
 ---   
   
-#### **Other IT skills**
+#### **Other IT skills / management skills**
+###### - Scrum master, team management, client contact
 ###### - GNU/Linux, GIT, Jira.com, Azure DevOps
 
 ---
@@ -36,3 +41,4 @@ permalink: /about/
 #### **Foreign Languages**
 ###### English - fluent in speech and writing 
 ###### German - communicative
+###### Italian - beginner
