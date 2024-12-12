@@ -36,6 +36,7 @@ permalink: /about/
 #### **Other IT skills / management skills**
 ###### - Scrum master, team management, client contact
 ###### - GNU/Linux, GIT, Jira.com, Azure DevOps
+###### - Docker, Kubernetes, AKS
 
 ---
 
