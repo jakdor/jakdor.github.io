@@ -6,11 +6,9 @@ date_end: 2022-10-01 00:00:00 +0200
 categories: work
 tech: [Xamarin, .NET/C#]
 ---
-###### I'm currently working for Blue Veery GmbH company, where I'm responsible for developing medical mobile and desktop apps.
 
-##### Update 01.08.2022:
-
-###### I was promoted to role of Software Team Leader. In this new project we develop web apps and microservices in .NET 6.
+###### -Medical project in Xamarin/.NET
+###### -Ran and optimized Scrum processes as Scrum Master, to improve delivery predictability.
 
 ##### Links
 

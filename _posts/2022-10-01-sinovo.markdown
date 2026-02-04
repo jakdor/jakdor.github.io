@@ -6,7 +6,16 @@ date_end: 2024-10-01 00:00:00 +0200
 categories: work
 tech: [.NET/C#, Management]
 ---
-###### I was working as Software Team Lead @ SINOVO where we developed medical web apps for US and EU markets.
+###### -Led Scrum execution and delivery planning for mobile and web teams,
+###### -Acted as primary delivery contact for stakeholders,
+###### -Participated in IP planning and roadmap discussions,
+###### -Designed engineering tasks based on requirements,
+###### -Ran and optimized Scrum processes to improve delivery predictability.
+
+##### Key Projects:
+###### Medical Platform (100k+ active users): Co-led a team of 10 engineers, delivering and maintaining a high-scale medical application in a regulated environment
+
+###### US Market Expansion (FDA): Led on my own a team of 4 engineers delivering a US-market application fork, supporting FDA regulatory submission requirements
 
 ##### Links
 
