@@ -4,7 +4,7 @@ title:  "Blue Veery GmbH"
 date_start: 2020-11-01 00:00:00 +0200
 date_end: 2022-10-01 00:00:00 +0200
 categories: work
-tech: [Xamarin, .NET/C#]
+tech: [.NET/C#, Xamarin, Scrum Master]
 ---
 
 ###### -Medical project in Xamarin/.NET

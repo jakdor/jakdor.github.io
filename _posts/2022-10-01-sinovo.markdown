@@ -4,7 +4,7 @@ title:  "SINOVO GmbH"
 date_start: 2022-10-01 00:00:00 +0200
 date_end: 2024-10-01 00:00:00 +0200
 categories: work
-tech: [.NET/C#, Management]
+tech: [.NET/C#, Tech Lead]
 ---
 ###### -Led Scrum execution and delivery planning for mobile and web teams,
 ###### -Acted as primary delivery contact for stakeholders,

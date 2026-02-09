@@ -3,7 +3,7 @@ layout: post
 title:  "Zvoove Group GmbH"
 date_start: 2024-10-01 00:00:00 +0200
 categories: work
-tech: [.NET/C#, Management]
+tech: [.NET/C#, Team Lead]
 ---
 
 
