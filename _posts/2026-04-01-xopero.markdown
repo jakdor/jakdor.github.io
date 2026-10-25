@@ -1,0 +1,21 @@
+---
+layout: post
+title:  "Xopero S.A."
+date_start: 2026-04-01 00:00:00 +0200
+categories: work
+tech: [.NET/C#, Team Lead]
+---
+
+###### My current contract... 
+
+##### Links
+
+<a href="https://xopero.com/" target="_blank"><i class="fa fa-link fa-3x" style="color: black"></i></a> | [https://xopero.com/][XoperoSA]{:target="_blank"}
+{:.mbtablestyle}
+
+<a href="https://gitprotect.io/" target="_blank"><i class="fa fa-link fa-3x" style="color: black"></i></a> | [https://gitprotect.io/][GitProtect]{:target="_blank"}
+{:.mbtablestyle}
+
+[//]: links:
+[XoperoSA]: https://xopero.com/
+[GitProtect]: https://gitprotect.io/
